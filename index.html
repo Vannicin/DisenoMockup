@@ -7,39 +7,40 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="icon" type="image/png" href="resources/daffon_icon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="resources/daffonlogohd.png" alt="Logo" class="logo-inicio" href="#">
+                <img src="resources/daffonlogohd.png" alt="Logo" class="logo-inicio" href="#" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
             </div>
             <div class="nav-container">
                 <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Teams</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li data-aos="flip-down" data-aos-duration="500" data-aos-delay="500"><a href="#">Home</a></li>
+                    <li data-aos="flip-down" data-aos-duration="500" data-aos-delay="600"><a href="#">About</a></li>
+                    <li data-aos="flip-down" data-aos-duration="500" data-aos-delay="700"><a href="#">Teams</a></li>
+                    <li data-aos="flip-down" data-aos-duration="500" data-aos-delay="800"><a href="#">Blog</a></li>
+                    <li data-aos="flip-down" data-aos-duration="500" data-aos-delay="900"><a href="#">Contact</a></li>
                 </ul>
-                <a href="#" class="btn-download">Download Now</a>
+                <a href="#" class="btn-download" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" >Download Now</a>
             </div>
         </nav>
     </header>
 
     <section class="info">
         <div class="info-content">
-            <h1>Connect anywhere, anytime</h1>
-            <p>Connect in real time, from any device, in high quality, whenever and wherever you want</p>
+            <h1 data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1100">Connect anywhere, anytime</h1>
+            <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">Connect in real time, from any device, in high quality, whenever and wherever you want</p>
             <div class="info-download">
-                <a href="#" class="btn-info">Download Now</a>
+                <a href="#" class="btn-info" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1300">Download Now</a>
             </div>
         </div>
 
         <div class="info-image">
-            <img src="resources/conferencia.png" alt="Call" class="image-movement">
+            <img src="resources/conferencia.png" alt="Call" class="image-movement" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1400">
         </div>
 
         <div class="dropships">
@@ -248,4 +249,8 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
