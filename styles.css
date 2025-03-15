@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+    gap: 55px;
+}
+
+.nav-links li a {
+    color: #4e506d;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff6c01;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.logo-inicio {
+    width: 180px;
+    height: auto;
+}
+
+.btn-download {
+    font-size: 15px;
+    padding: 10px 20px;
+    color: #ff6c01;
+    border: 2px solid #ff6c01;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.4s ease;
+}
+
+.btn-download:hover {
+    background-color: #ff6c01;
+    color: #fff;
+    transform: scale(1.05);
+}
