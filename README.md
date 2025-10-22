@@ -4,7 +4,7 @@ Desarrollo de un Mockup como programa de prácticas en la empresa Digital Búho.
 
 ## 👉 Link de la Github Page
 
-https://vannicin.github.io/PracticasBuho25/
+https://vannicin.github.io/DisenoMockup/
 
 ## 📞 Daffon - Plataforma de Videoconferencias
 
